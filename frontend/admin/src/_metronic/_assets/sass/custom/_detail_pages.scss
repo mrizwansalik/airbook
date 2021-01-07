@@ -1,0 +1,19 @@
+.kt_section__detail{
+  .kt_detail__item_title{
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: .4rem;
+  }
+}
+
+select{
+  &.approvals{
+    option{
+      background-color: #fff;
+      color: #000;
+      &:disabled{
+        background-color: $input-disabled-bg;
+      }
+    }
+  }
+}
